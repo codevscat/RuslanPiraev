@@ -1,0 +1,311 @@
+@media (min-width: 375px){
+body {
+  height: 100vh;
+  width: 100vw;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+}
+
+.back {
+  background-image: url(call.png);
+  background-size: 100%;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}
+
+a{
+  text-decoration: none;
+  font-size: 150%;
+  color: white;
+  font-family: zapfino;
+  padding: 5%;
+}
+
+p{
+  color: #000000;
+  font-size: 200%;
+  font-family: Chalkduster;
+}
+
+.bri{
+  position: absolute;
+  left: 30%;
+}
+
+.home{
+  position: absolute;
+  left: 5%;
+}
+
+.por{
+  position: absolute;
+    left: 60%;
+  }
+}
+
+
+
+@media (min-width: 1024px){
+body {
+  height: 100vh;
+  width: 100vw;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+}
+
+.back {
+  background-image: url(call.png);
+  background-size: 80%;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}
+
+a{
+  text-decoration: none;
+  font-size: 300%;
+  color: white;
+  font-family: zapfino;
+  padding: 5%;
+}
+
+p{
+  color: #000000;
+  font-size: 400%;
+  font-family: Chalkduster;
+}
+
+.bri{
+  position: absolute;
+  left: 30%;
+}
+
+.home{
+   position: absolute;
+  left: 5%;
+}
+
+.por{
+  position: absolute;
+  left: 60%;
+  }
+}
+
+
+
+@media (min-width: 1440px){
+body {
+  height: 100vh;
+  width: 100vw;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+}
+
+.back {
+  background-image: url(call.png) ;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}
+
+a{
+  text-decoration: none;
+  font-size: 400%;
+  color: white;
+  font-family: zapfino;
+  padding: 5%;
+}
+
+p{
+  color: #000000;
+  font-size: 500%;
+  font-family: Chalkduster;
+}
+
+.bri{
+  position: absolute;
+  left: 30%;
+}
+
+.home{
+   position: absolute;
+  left: 5%;
+}
+
+.por{
+  position: absolute;
+  left: 60%;
+  }
+}
+
+@media (min-width: 1680px){
+body {
+  height: 100vh;
+  width: 100vw;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+}
+
+.back {
+  background-image: url(call.png) ;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}
+
+a{
+  text-decoration: none;
+  font-size: 400%;
+  color: white;
+  font-family: zapfino;
+  padding: 5%;
+}
+
+p{
+  color: #000000;
+  font-size: 500%;
+  font-family: Chalkduster;
+}
+
+.bri{
+  position: absolute;
+  left: 26%;
+}
+
+.home{
+   position: absolute;
+  left: 5%;
+}
+
+.por{
+  position: absolute;
+  left: 51%;
+  }
+}
+
+
+@media (min-width: 1920px){
+body {
+  height: 100vh;
+  width: 100vw;
+  color: red;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+}
+
+.back {
+  background-image: url(call.png) ;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+}
+
+a{
+  text-decoration: none;
+  font-size: 400%;
+  color: white;
+  font-family: zapfino;
+  padding: 5%;
+}
+
+p{
+  color: #000000;
+  font-size: 500%;
+  font-family: Chalkduster; 
+}
+
+.bri{
+  position: absolute;
+  left: 26%;
+}
+
+.home{
+   position: absolute;
+  left: 5%;
+}
+
+.por{
+  position: absolute;
+  left: 51%;
+  }
+}

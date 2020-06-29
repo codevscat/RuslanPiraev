@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+<div class="back">
+  <canvas id="dots"></canvas>
+  <p class= "home">Home</p> 
+  <p class= "bri">Briefly</p>
+  <p class= "por">Portfolio</p>
+  <div id="myLink"> </div>
+<script type="text/javascript">
+    var div = document.getElementById('myLink');
+    var e    = document.createElement('a');
+    e.href = 'index.html';
+    e.title = 'Home';
+    e.class = 'Homea';
+    e.appendChild(document.createTextNode('Home'));
+    div.appendChild(e);
+  	
+  var div = document.getElementById('myLink');
+    var i    = document.createElement('a');
+    i.class = "briefly";
+    i.href = 'briefly.html';
+    i.title = 'Briefly';
+    i.class = 'Brieflya';
+    i.appendChild(document.createTextNode('Briefly'));
+    div.appendChild(i);
+  
+      var div = document.getElementById('myLink');
+    var a    = document.createElement('a');
+    a.href = 'portfolio.html';
+    a.title = 'Portfolio';
+    a.class = 'Portfolioa';
+    a.appendChild(document.createTextNode('Portfolio'));
+    div.appendChild(a);
+    
+</script>
+</div>
+<script src= "js/contact.js"></script>
+  </body>
